@@ -15,9 +15,6 @@ export const DataTable =() => {
     
     setData(use(dataPromise));
 
-    console.log("dataPromise", dataPromise);
-    console.log("data", data);
-
     return (
         <> 
         <h1>Data Table</h1>
